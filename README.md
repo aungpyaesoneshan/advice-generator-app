@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Aung-Pyae-Sone-Shan/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Add live site URL here](https://aung-pyae-sone-shan.github.io/intro-section-with-dropdown-navigation-main/)
+- Solution URL: [https://github.com/Aung-Pyae-Sone-Shan/advice-generator-app-main](https://github.com/Aung-Pyae-Sone-Shan/advice-generator-app-main)
+- Live Site URL: [https://aung-pyae-sone-shan.github.io/advice-generator-app-main/](https://aung-pyae-sone-shan.github.io/advice-generator-app-main/)
 
 ## My process
 

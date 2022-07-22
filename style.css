@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+:root{
+    /* ### Primary */
+
+--light_cyan: hsl(193, 38%, 86%);
+--neon_green: hsl(150, 100%, 66%);
+
+/* ### Neutral */
+
+--grayish_blue: hsl(217, 19%, 38%);
+--dark_grayish_blue: hsl(217, 19%, 24%);
+--dark_blue: hsl(218, 23%, 16%);
+}
+*{
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--dark_blue) ;
+    overflow: hidden;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: var(--dark_grayish_blue);
+}
+section p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--neon_green);
+    letter-spacing: 5px;
+}
+section span{
+    font-size: 16px;
+}
+article{
+    color: var(--light_cyan);
+    width: 90%; 
+    text-align: center;
+
+}
+.divider{
+    margin-bottom: 80px;
+}
+.dice{
+    position: absolute;
+    bottom: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--neon_green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dice:hover{
+    box-shadow: 1px 1px 25px var(--neon_green);
+}
+/* ------------creator link------ */
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+.attribution a{
+    color: var(--grayish_blue);
+    font-size: 18px;
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: var(--neon_green);
+}
+/* ----------media quires------- */
+@media screen and (max-width:700px){
+    main{
+        align-items: flex-start;
+    }
+    section{
+        width: 340px;
+        margin-top: 100px;
+    }
+    .divider{
+        margin-bottom: 60px;
+        width: 90%;
+    }
+    section p{
+        font-size: 14px;
+    }
+
+    article{
+        font-size: 20px;
+        line-height: 35px;
+    }
+}

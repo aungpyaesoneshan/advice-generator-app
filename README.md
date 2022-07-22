@@ -49,6 +49,7 @@ Users should be able to:
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@Aung-Pyae-Sone-Shan](https://www.frontendmentor.io/profile/Aung-Pyae-Sone-Shan)
+- LinkedIn - [@Aung-Pyae-Sone-Shan](https://www.linkedin.com/in/aung-pyae-sone-shan/)
 <!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
 
 
